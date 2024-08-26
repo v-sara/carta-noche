@@ -1,5 +1,5 @@
-# prueba
-primer repo 
+# carta
+primera vez que subo algo
 
 ## descripcion
-hola
+veremos que tal sale
