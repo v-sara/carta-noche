@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Eres tú?</title>
+
+    <link rel="icon" href="infinito blanco.png" type="imagen/png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="carta.html">
+</head>
+
+<body>
+    <div class="box">
+        <img class="imagen" src="arbol.jpg">
+
+        <input type="text" id="hermanote" name="nom" placeholder="Escribe tu apodo">
+        <button onclick="verificarNombre()">Ingresar</button>
+        <p class="mensaje" id="mensaje"></p>
+
+        <p class="poema">“Septiembre, mes de encanto y dulzura, donde el otoño pinta de oro los días, las hojas caen en
+            su danza segura, y en el horizonte surgen nuevas vías.”</p>
+
+    </div>
+
+    <script>
+        function verificarNombre() {
+            const nombre = document.getElementById('hermanote').value;
+            if (nombre.trim() === '') {
+                document.getElementById('mensaje').textContent = 'Por favor, ingresa un nombre.';
+            } else {
+                if (nombre.toLowerCase() === 'hermanote') {
+                    window.location.href = 'carta.html'; 
+                } else {
+                    document.getElementById('mensaje').textContent = `no eres tú`;
+                }
+            }
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+/* el overflow: hidden; es para que no tenga croll de manera vertical
+
+es importante decirle a la pagina que el html y el body debem tenet un 100%, asi agrra mejor el gradiente
+
+::placeholder para dar estilos direcctamente a una funion del input*/
+
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(#fcefe4,#da4b0c, #731b09);
+}
+
+.box {
+    background-color:#ffd4af;
+    width: 60%;
+    height: 300px;
+    margin: auto;
+    margin-top: 12vh;
+    border-radius: 8px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+    box-shadow: 0px 0px 25px 0px #0009;
+    letter-spacing: 0.5px;
+}
+
+.imagen {
+    width: 100px;
+    padding: 20px 31%;
+}
+
+input {
+    border: none;
+    border-bottom: 1.5px solid #6d2213;
+    background: transparent;
+    width: 100px;
+    border-radius: 4px;
+    color: #9f2c01;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+button {
+    height: 18px;
+    width: 58px;
+    font-size: 10px;
+    background: none;
+    font-family: sans-serif;
+    font-weight: 100;
+    border: 1px solid #6d2213;
+    border-radius: 10px;
+    color: #6d2213;
+}
+
+::placeholder {
+    color: #da4b0c;
+    font-size: 10px;
+    font-weight: 300;
+    opacity: 0.7; /* para bajarle la opacidad */
+}
+
+.mensaje{
+    font-size: 8px;
+    padding-top: 10px;
+    color: #d27713;
+}
+
+.poema{
+    padding: 1% 6%;
+    color: #9f2c01;
+}
