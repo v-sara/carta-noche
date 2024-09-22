@@ -22,25 +22,26 @@ html, body {
 }
 
 body {
-    background: linear-gradient(#f7ebd8,#f68789, #bf292c);
+    background: linear-gradient(#d3d3d3,#4682b4, #00008b , #000);
 }
+
 
 .carta {
     width: 60%;
     height: 100%;
-    background-color: #f7ebd8;
+    background-color: #fffafa;
     margin: 0;
     margin: auto;
     margin-top: 40px;
     border-radius: 8px;
-    box-shadow: 0px 0px 25px 0px #4B4B4B;
+    box-shadow: 0px 0px 25px 0px #000;
     margin-bottom: 40px;
     padding-bottom: 65px;
 }
 
 .imagen {
     height: 25.6px;
-    width: 200px;
+    width: 69px;
     margin: auto;
     position: absolute;
     left: 50%;
@@ -58,7 +59,7 @@ body {
     font-style: italic;
     line-height: 15px;
     letter-spacing: 0.5px;
-    color: #c62a3e;
+    color: #313030;
     line-height: 20px;
 }
 

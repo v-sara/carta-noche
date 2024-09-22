@@ -12,14 +12,14 @@ html, body {
 
 body {
     margin: 0;
-    background: linear-gradient(#f7ebd8,#f68789, #bf292c);
+    background: linear-gradient(#d3d3d3,#4682b4, #00008b , #000);
 }
 
 .box {
-    background-color:#f7ebd8;
+    background-color:#fffafa;
     width: 50%;
-    min-height: 320px;
-    max-height: 410px;
+    min-height: 340px;
+    max-height: 430px;
     margin: auto;
     margin-top: 12vh;
     border-radius: 8px;
@@ -27,12 +27,13 @@ body {
     font-family: sans-serif;
     font-weight: 100;
     font-size: 10.2px;
-    box-shadow: 0px 0px 25px 0px #4B4B4B;
+    box-shadow: 0px 0px 25px 0px #000;
     letter-spacing: 0.5px;
 }
 
 .imagen {
-    width: 100px;
+    width: 83px;
+    height: 110px;
     padding: 20px 31%;
     margin: auto;
     position: absolute;
@@ -43,11 +44,11 @@ body {
 
 input {
     border: none;
-    border-bottom: 1.5px solid #c62a3e;
+    border-bottom: 1.5px solid #000;
     background: transparent;
     width: 100px;
     border-radius: 4px;
-    color: #c62a3e;
+    color: #000;
     font-family: sans-serif;
     font-size: 10px;
     margin-top: 140px;
@@ -60,19 +61,19 @@ button {
     background: none;
     font-family: sans-serif;
     font-weight: 100;
-    border: 1px solid #c62a3e;
+    border: 1px solid #000;
     border-radius: 10px;
-    color: #c62a3e;
+    color: #000;
 }
 
 button:hover {
-    color: #f7ebd8;
-    background-color: #bf292c;
-    border: 1px solid #f7ebd8;
+    color: #fffafa;
+    background-color: #000;
+    border: 1px solid #fffafa;
 }
 
 ::placeholder {
-    color: #c62a3e;
+    color: #000;
     font-size: 10px;
     font-weight: 300;
     opacity: 0.7; /* para bajarle la opacidad */
@@ -81,11 +82,11 @@ button:hover {
 .mensaje{
     font-size: 8px;
     padding-top: 5px;
-    color: #c27979;
+    color: #00008b;
 }
 
 .poema{
     padding: 1% 6%;
-    color: #bf292c;
+    color: #000;
     margin-top: 5px;
 }

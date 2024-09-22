@@ -13,38 +13,29 @@
 
 <body>
     <div class="box">
-        <img class="imagen" src="rosas.png">
+        <img class="imagen" src="noche.png">
 
-        <input type="text" id="preciosa" name="nom" placeholder="Escribe tu apodo">
+        <input type="text" id="papi" name="nom" placeholder="Escribe tu apodo">
         <button onclick="verificarNombre()">Ingresar</button>
         <p class="mensaje" id="mensaje"></p>
 
-        <p class="poema">“En el jardín de la vida,
-            entre rosas rojas y claveles blancos,
-            florece el amor más profundo y verdadero,
-            el amor de una hija a su madre. <br><br>
+        <p class="poema">“En la quietud de la noche oscura, donde las estrellas susurran secretos, un padre vela con ternura, protegiendo sueños, calmando miedos. <br><br>
 
-            Rosa roja, símbolo de pasión,
-            en tus pétalos guardas el fuego del corazón.
-            Clavel blanco, emblema de pureza,
-            tu blancura refleja la sinceridad y la belleza. <br><br>
-
-            En cada flor, un susurro de amor eterno,
-            un lazo inquebrantable, un vínculo tierno.
-            rosa roja y clavel blanco,
-            unidos en un solo canto,
-            celebran el amor que nunca se apaga,
-            el amor de una hija que siempre te halaga.”</p>
+            La luna brilla con suave resplandor, iluminando el rostro del niño dormido, y en su corazón, un amor sin temor, un lazo eterno, fuerte y querido. <br><br>
+            
+            El viento canta una melodía suave, mientras el padre acaricia con cuidado, susurrando promesas que nunca acaben, en la noche, su amor es sagrado. <br><br>
+            
+            Cada estrella es un testigo fiel, del amor profundo y sincero, que en la noche, como un laurel, crece y florece, eterno y verdadero.”</p>
 
     </div>
 
     <script>
         function verificarNombre() {
-            const nombre = document.getElementById('preciosa').value;
+            const nombre = document.getElementById('papi').value;
             if (nombre.trim() === '') {
                 document.getElementById('mensaje').textContent = 'Por favor, ingresa un nombre.';
             } else {
-                if (nombre.toLowerCase() === 'preciosa') {
+                if (nombre.toLowerCase() === 'papi') {
                     window.location.href = 'carta.html';
                 } else {
                     document.getElementById('mensaje').textContent = `no eres tú`;
