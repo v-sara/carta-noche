@@ -13,25 +13,39 @@
 
 <body>
     <div class="box">
-        <img class="imagen" src="arbol.jpg">
+        <img class="imagen" src="rosas.png">
 
-        <input type="text" id="hermanote" name="nom" placeholder="Escribe tu apodo">
+        <input type="text" id="preciosa" name="nom" placeholder="Escribe tu apodo">
         <button onclick="verificarNombre()">Ingresar</button>
         <p class="mensaje" id="mensaje"></p>
 
-        <p class="poema">“Septiembre, mes de encanto y dulzura, donde el otoño pinta de oro los días, las hojas caen en
-            su danza segura, y en el horizonte surgen nuevas vías.”</p>
+        <p class="poema">“En el jardín de la vida,
+            entre rosas rojas y claveles blancos,
+            florece el amor más profundo y verdadero,
+            el amor de una hija a su madre. <br><br>
+
+            Rosa roja, símbolo de pasión,
+            en tus pétalos guardas el fuego del corazón.
+            Clavel blanco, emblema de pureza,
+            tu blancura refleja la sinceridad y la belleza. <br><br>
+
+            En cada flor, un susurro de amor eterno,
+            un lazo inquebrantable, un vínculo tierno.
+            rosa roja y clavel blanco,
+            unidos en un solo canto,
+            celebran el amor que nunca se apaga,
+            el amor de una hija que siempre te halaga.”</p>
 
     </div>
 
     <script>
         function verificarNombre() {
-            const nombre = document.getElementById('hermanote').value;
+            const nombre = document.getElementById('preciosa').value;
             if (nombre.trim() === '') {
                 document.getElementById('mensaje').textContent = 'Por favor, ingresa un nombre.';
             } else {
-                if (nombre.toLowerCase() === 'hermanote') {
-                    window.location.href = 'carta.html'; 
+                if (nombre.toLowerCase() === 'preciosa') {
+                    window.location.href = 'carta.html';
                 } else {
                     document.getElementById('mensaje').textContent = `no eres tú`;
                 }

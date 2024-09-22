@@ -22,29 +22,30 @@ html, body {
 }
 
 body {
-    background: linear-gradient(#fcefe4,#da4b0c, #731b09);
+    background: linear-gradient(#f7ebd8,#f68789, #bf292c);
 }
 
 .carta {
-    width: 80%;
+    width: 60%;
     height: 100%;
-    background-color: #ffd4af;
+    background-color: #f7ebd8;
     margin: 0;
     margin: auto;
     margin-top: 40px;
     border-radius: 8px;
-    box-shadow: 0px 0px 25px 0px #0009;
+    box-shadow: 0px 0px 25px 0px #4B4B4B;
     margin-bottom: 40px;
+    padding-bottom: 65px;
 }
 
 .imagen {
-    height: 40px;
-    width: 150px;
+    height: 25.6px;
+    width: 200px;
     margin: auto;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
 .texto, h2, .fin, span, .proverbios {
@@ -57,7 +58,8 @@ body {
     font-style: italic;
     line-height: 15px;
     letter-spacing: 0.5px;
-    color: #9f2c01;
+    color: #c62a3e;
+    line-height: 20px;
 }
 
 .tex-1 {
@@ -72,7 +74,6 @@ body {
 
 h2, span {
     font-weight: 700;
-    color: #731b09;
 }
 
 .proverbios, .verso {
